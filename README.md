@@ -53,6 +53,15 @@ This boilerplate is ideal for:
 
 ---
 
+## Installation Guide
+
+This project was tested by using node v20.19.5
+```bash
+npm install
+npm migration:run
+npm run dev
+```
+
 ## Basic Usage
 
 Create new user
