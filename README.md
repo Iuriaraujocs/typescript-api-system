@@ -1,4 +1,4 @@
-# ⚡ Minimal REST API Boilerplate in TypeScript
+# Minimal REST API Boilerplate in TypeScript
 
 This project aims to provide a **minimal development environment** for **rapid prototyping of APIs using TypeScript**, while maintaining **high code quality standards**.
 
@@ -6,7 +6,7 @@ It follows **SOLID principles** and a **layered architecture inspired by the MVC
 
 ---
 
-## 🚀 Current Features
+## Currently supports:
 
 - **Routing system**
 - **Controllers**
@@ -16,7 +16,7 @@ It follows **SOLID principles** and a **layered architecture inspired by the MVC
 
 ---
 
-## 🧭 Upcoming Features
+## Upcoming Features
 
 - `.env` environment configuration  
 - Support for other relational databases (MySQL / MariaDB)  
@@ -32,7 +32,7 @@ It follows **SOLID principles** and a **layered architecture inspired by the MVC
 
 ---
 
-## 🧩 Philosophy
+## Philosophy
 
 The main goal is to provide a **clean, lightweight foundation** for building REST APIs quickly —  
 balancing **simplicity** and **code quality**, while encouraging **good architectural practices**.
@@ -44,7 +44,7 @@ This boilerplate is ideal for:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **TypeScript**
 - **Node.js / Express**
@@ -53,7 +53,15 @@ This boilerplate is ideal for:
 
 ---
 
-## 🧰 Next Steps (Planned CLI Tools)
+## Basic Usage
+```bash
+curl -X POST http://localhost:3000/api/users \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Iuri-test00", "email": "iuri-test00@email.com"}'
+---
+```
+
+## Next Steps (Planned CLI Tools)
 
 A lightweight CLI will be added to streamline development, allowing developers to quickly scaffold project components:
 
