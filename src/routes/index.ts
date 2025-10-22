@@ -1,9 +1,10 @@
-import { Router } from "express";
-import { UserController } from "../controllers/UserController";
+import { Router } from 'express';
+import apiRouter from './api/index';
+import publicRouter from './public/index';
 
-const routes = Router();
-const userController = new UserController();
+const router = Router();
 
-routes.post("/users", userController.create);
+router.use('/api', apiRouter);
+router.use('/', publicRouter);
 
-export default routes;
+export default router;
