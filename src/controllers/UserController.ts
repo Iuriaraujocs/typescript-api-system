@@ -12,4 +12,13 @@ export class UserController {
       return res.status(400).json({ error: err.message });
     }
   }
+
+  async index(req: Request, res: Response) {
+    try {
+      const users = await UserRepository.find();
+      res.json(users);
+    } catch (error) {
+      res.status(500).json({ error: 'Erro ao buscar usuários' });
+    }
+  }
 }
