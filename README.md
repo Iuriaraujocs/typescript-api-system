@@ -54,11 +54,13 @@ This boilerplate is ideal for:
 ---
 
 ## Basic Usage
+
+Create new user
 ```bash
 curl -X POST http://localhost:3000/api/users \
   -H "Content-Type: application/json" \
   -d '{"name": "Iuri-test00", "email": "iuri-test00@email.com"}'
----
+
 ```
 
 ## Next Steps (Planned CLI Tools)
